@@ -24,4 +24,5 @@ start the server with the helper script 'dynapi' from root
 
 .. code-block:: console
 
-   (.venv) $ ./dynapi (this starts the flask api, and generates the swagger/redoc endpoint documentation dynamically for your DB)
+   (.venv) $ ./dynapi 
+   (this starts the flask api, and generates the swagger/redoc endpoint documentation dynamically for your DB)
