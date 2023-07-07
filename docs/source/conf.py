@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'DynAPI'
+copyright = '2021, GameplayerG9|Konstantinlob'
+author = 'GameplayerG9|Konstantinlob'
 
 release = '0.1'
 version = '0.1.0'
