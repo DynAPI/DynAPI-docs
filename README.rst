@@ -1,9 +1,3 @@
-Template for the Read the Docs tutorial
+Documentation for an dynamic api made for Postgres databases written in python
 =======================================
-
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+https://dynapi-docs.readthedocs.io/en/latest/index.html
