@@ -1,4 +1,4 @@
-Usage
+Setup
 =====
 
 .. _installation:
@@ -6,29 +6,24 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use DynAPI, first configure the system to your pleasing:
+
+second, install the dependencies using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip3 install -r requirements.txt
 
-Creating recipes
+Configuration
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+configure the options given in 'api.conf.template' and save the file as 'api.conf'
 
-.. autofunction:: lumache.get_random_ingredients
+Startup
+----------------
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+start the server with the helper script 'dynapi' from root
 
-.. autoexception:: lumache.InvalidKindError
+.. code-block:: console
 
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+   (.venv) $ ./dynapi (this starts the flask api, and generates the swagger/redoc endpoint documentation dynamically for your DB)
