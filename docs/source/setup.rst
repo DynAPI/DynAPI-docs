@@ -18,7 +18,7 @@ Configuration
 To use DynAPI, first configure the system to your pleasing by configuring the options given in 'api.conf.template' and save the file as 'api.conf'
 
 .. dropdown:: configuration file template:
-      [api]
+   [api]
    # host:
    # where to host
    # recommended: 0.0.0.0, 127.0.0.1, localhost
